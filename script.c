@@ -302,24 +302,3 @@ void arithmetic(int location1[], int location2[], int location3[], char arg1[], 
 		}
 	}
 }
-/* This project is a programming assignment from the Introduction to Computer Systems course taught at Trinity College
-in Hartford Connecticut. The purpose of the assignment is to create a program that will simulate a machine that will
-accept instructions written in the assembly language. 
-Assignment Sheet:
-The SM-275 is a new machine that is in the design phase right now. Your assignment is to write
-a simulator for the machine, which will interpret instructions to test its design. The simulator
-will be written in C, and it should accept instructions in the assembly language of the SM-275,
-SMA. 
-Instruction Set Architecture
-• All general-purpose registers and memory locations can store 1 byte.
-• All data is of type integer. The simulator should behave as though the integer
-representation is one-byte Twos Complement in terms of overflow, but Twos
-Complement need not be implemented.
-• There are four general-purpose registers R0…R3. Register R0 is also the designated
-destination of any arithmetic operation.
-• There are eight memory locations, M0…M7.
-• There are three one-bit flag registers: ZF (zero flag), SF (sign flag), OF (overflow flag).
-They are set/cleared by all the arithmetic instructions below, as well as the COMP
-instruction. Note: given that R0 always contains the result of an arithmetic operation, in
-this case ZF and SF are set solely based on that value.
-• The instruction set is as follows:
